@@ -63,6 +63,55 @@ noticiasHome[5]={
     link: "https://medium.com/@alumno.fdellorsomengon/el-25-de-mayo-en-arrayanes-3224ba66b993",
 };             
 
+noticiasHome[6]={
+    area:"Arrayanes",
+    titulo:"Prohibición total del uso del celular durante la jornada escolar",
+    copete:"¿Es realmente una buena medida? Los argumentos a favor y en contra",
+    imagenes:["imagenes/noticias/7.jpeg"],
+    autor:"Franco Dell'Orso",
+    fecha:"10/9/24",
+    link: "https://medium.com/@alumno.fdellorsomengon/prohibición-total-del-uso-del-celular-durante-la-jornada-escolar-46e19af6a0d5",
+};             
+
+noticiasHome[7]={
+    area:"Arrayanes",
+    titulo:"Día del Maestro",
+    copete:"¿Cuándo y por qué se celebra en Argentina y en otros países?",
+    imagenes:["imagenes/noticias/8.jpg"],
+    autor:"Franco Dell'Orso",
+    fecha:"10/9/24",
+    link: "https://medium.com/@alumno.fdellorsomengon/día-del-maestro-54e9324d3bff",
+};       
+
+noticiasHome[8]={
+    area:"Arrayanes",
+    titulo:"Se vienen los Sports y ya hay fecha para el evento.",
+    copete:"Los alumnos y el colegio se preparan para participar y organizar el evento deportivo anual con fecha en septiembre.",
+    imagenes:["imagenes/noticias/9.webp"],
+    autor:"Eugenio Zucchi",
+    fecha:"10/9/24",
+    link: "https://medium.com/@alumno.ezucchi/se-vienen-los-sports-y-ya-hay-fecha-para-el-evento-a0d376ca35ea",
+};   
+
+noticiasHome[9]={
+    area:"Arrayanes",
+    titulo:"Controversia por nueva medida: “Prohibición de los celulares en la institución, durante TODA la jornada”",
+    copete:"Los alumnos y el colegio se preparan para participar y organizar el evento deportivo anual con fecha en septiembre.",
+    imagenes:["imagenes/noticias/10.png"],
+    autor:"Pedro Dengler",
+    fecha:"10/9/24",
+    link: "https://medium.com/@alumno.pdengler/controversia-por-nueva-medida-prohibición-de-los-celulares-en-la-institución-durante-toda-la-83dc82ee9c56",
+};  
+
+noticiasHome[10]={
+    area:"Arrayanes",
+    titulo:"Los alumnos de Arrayanes viajan a La Lucena",
+    copete:"Los alumnos y el colegio se preparan para participar y organizar el evento deportivo anual con fecha en septiembre.",
+    imagenes:["imagenes/noticias/11.jpg"],
+    autor:"Matías Salvatore",
+    fecha:"10/9/24",
+    link: "https://medium.com/@alumno.pdengler/los-alumnos-de-arrayanes-viajan-a-la-lucena-6ef193eda896",
+};  
 function reemplazarNoticia0(){
     document.getElementById("areaNoticia0").innerHTML=noticiasHome[0].area;
     document.getElementById("fechaNoticia0").innerHTML=noticiasHome[0].fecha;
@@ -122,6 +171,55 @@ function reemplazarNoticia5(){
 }
 reemplazarNoticia5();
 
+function reemplazarNoticia6(){
+    document.getElementById("areaNoticia6").innerHTML=noticiasHome[6].area;
+    document.getElementById("fechaNoticia6").innerHTML=noticiasHome[6].fecha;
+    document.getElementById("tituloNoticia6").innerHTML=noticiasHome[6].titulo;
+    document.getElementById("autorNoticia6").innerHTML=noticiasHome[6].autor;
+    document.getElementById("imagenNoticia6").src=noticiasHome[6].imagenes[0];
+    document.getElementById("link6").href = noticiasHome[6].link;
+}
+reemplazarNoticia6();
+
+function reemplazarNoticia7(){
+    document.getElementById("areaNoticia7").innerHTML=noticiasHome[7].area;
+    document.getElementById("fechaNoticia7").innerHTML=noticiasHome[7].fecha;
+    document.getElementById("tituloNoticia7").innerHTML=noticiasHome[7].titulo;
+    document.getElementById("autorNoticia7").innerHTML=noticiasHome[7].autor;
+    document.getElementById("imagenNoticia7").src=noticiasHome[7].imagenes[0];
+    document.getElementById("link7").href = noticiasHome[7].link;
+}
+reemplazarNoticia7();
+
+function reemplazarNoticia8(){
+    document.getElementById("areaNoticia8").innerHTML=noticiasHome[8].area;
+    document.getElementById("fechaNoticia8").innerHTML=noticiasHome[8].fecha;
+    document.getElementById("tituloNoticia8").innerHTML=noticiasHome[8].titulo;
+    document.getElementById("autorNoticia8").innerHTML=noticiasHome[8].autor;
+    document.getElementById("imagenNoticia8").src=noticiasHome[8].imagenes[0];
+    document.getElementById("link8").href = noticiasHome[8].link;
+}
+reemplazarNoticia8();
+
+function reemplazarNoticia9(){
+    document.getElementById("areaNoticia9").innerHTML=noticiasHome[9].area;
+    document.getElementById("fechaNoticia9").innerHTML=noticiasHome[9].fecha;
+    document.getElementById("tituloNoticia9").innerHTML=noticiasHome[9].titulo;
+    document.getElementById("autorNoticia9").innerHTML=noticiasHome[9].autor;
+    document.getElementById("imagenNoticia9").src=noticiasHome[9].imagenes[0];
+    document.getElementById("link9").href = noticiasHome[9].link;
+}
+reemplazarNoticia9();
+
+function reemplazarNoticia10(){
+    document.getElementById("areaNoticia10").innerHTML=noticiasHome[10].area;
+    document.getElementById("fechaNoticia10").innerHTML=noticiasHome[10].fecha;
+    document.getElementById("tituloNoticia10").innerHTML=noticiasHome[10].titulo;
+    document.getElementById("autorNoticia10").innerHTML=noticiasHome[10].autor;
+    document.getElementById("imagenNoticia10").src=noticiasHome[10].imagenes[0];
+    document.getElementById("link10").href = noticiasHome[10].link;
+}
+reemplazarNoticia10();
 //
 
 function toggleMenu() {
