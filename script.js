@@ -112,6 +112,15 @@ noticiasHome[10]={
     fecha:"10/9/24",
     link: "https://medium.com/@alumno.pdengler/los-alumnos-de-arrayanes-viajan-a-la-lucena-6ef193eda896",
 };  
+noticiasHome[11]={
+    area:"Arrayanes",
+    titulo:"Gran éxito en la campaña “1arbol+”: Jornada de adopción responsable de árboles nativos",
+    copete:"Los alumnos y el colegio se preparan para participar y organizar el evento deportivo anual con fecha en septiembre.",
+    imagenes:["https://algoencomun.com.ar/wp-content/uploads/2024/08/1-78.jpg"],
+    autor:"Sofía Ordynans",
+    fecha:"01/10/24",
+    link: "https://medium.com/@alumno.fdellorsomengon/gran-éxito-en-la-campaña-1arbol-jornada-de-adopción-responsable-de-árboles-nativos-ad1324fea094",
+};  
 function reemplazarNoticia0(){
     document.getElementById("areaNoticia0").innerHTML=noticiasHome[0].area;
     document.getElementById("fechaNoticia0").innerHTML=noticiasHome[0].fecha;
@@ -220,6 +229,16 @@ function reemplazarNoticia10(){
     document.getElementById("link10").href = noticiasHome[10].link;
 }
 reemplazarNoticia10();
+
+function reemplazarNoticia11(){
+    document.getElementById("areaNoticia11").innerHTML=noticiasHome[11].area;
+    document.getElementById("fechaNoticia11").innerHTML=noticiasHome[11].fecha;
+    document.getElementById("tituloNoticia11").innerHTML=noticiasHome[11].titulo;
+    document.getElementById("autorNoticia11").innerHTML=noticiasHome[11].autor;
+    document.getElementById("imagenNoticia11").src=noticiasHome[11].imagenes[0];
+    document.getElementById("link11").href = noticiasHome[11].link;
+}
+reemplazarNoticia11();
 //
 
 function toggleMenu() {
