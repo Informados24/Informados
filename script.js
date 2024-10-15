@@ -121,6 +121,24 @@ noticiasHome[11]={
     fecha:"01/10/24",
     link: "https://medium.com/@alumno.fdellorsomengon/gran-éxito-en-la-campaña-1arbol-jornada-de-adopción-responsable-de-árboles-nativos-ad1324fea094",
 };  
+noticiasHome[12]={
+    area:"Arrayanes",
+    titulo:"Operativo Aprender 2024",
+    copete:"Los alumnos y el colegio se preparan para participar y organizar el evento deportivo anual con fecha en septiembre.",
+    imagenes:["imagenes/noticias/12.jpg"],
+    autor:"Franco Dell'Orso Mengon",
+    fecha:"15/10/24",
+    link: "https://medium.com/@alumno.fdellorsomengon/operativo-aprender-2024-7491ac9091ac",
+};  
+noticiasHome[13]={
+    area:"Tecnología-Educación",
+    titulo:"Alumno de 15 años vendía fotos creadas con IA de sus compañeras desnudas.",
+    copete:"Los alumnos y el colegio se preparan para participar y organizar el evento deportivo anual con fecha en septiembre.",
+    imagenes:["imagenes/noticias/13.jpg"],
+    autor:"Eugenio Zucchi",
+    fecha:"15/10/24",
+    link: "https://medium.com/@alumno.ezucchi/alumno-de-15-años-vendía-fotos-creadas-con-ia-de-sus-compañeras-desnudas-a939b6b514aa",
+};  
 function reemplazarNoticia0(){
     document.getElementById("areaNoticia0").innerHTML=noticiasHome[0].area;
     document.getElementById("fechaNoticia0").innerHTML=noticiasHome[0].fecha;
@@ -239,6 +257,26 @@ function reemplazarNoticia11(){
     document.getElementById("link11").href = noticiasHome[11].link;
 }
 reemplazarNoticia11();
+
+function reemplazarNoticia12(){
+    document.getElementById("areaNoticia12").innerHTML=noticiasHome[12].area;
+    document.getElementById("fechaNoticia12").innerHTML=noticiasHome[12].fecha;
+    document.getElementById("tituloNoticia12").innerHTML=noticiasHome[12].titulo;
+    document.getElementById("autorNoticia12").innerHTML=noticiasHome[12].autor;
+    document.getElementById("imagenNoticia12").src=noticiasHome[12].imagenes[0];
+    document.getElementById("link12").href = noticiasHome[12].link;
+}
+reemplazarNoticia12();
+
+function reemplazarNoticia13(){
+    document.getElementById("areaNoticia13").innerHTML=noticiasHome[13].area;
+    document.getElementById("fechaNoticia13").innerHTML=noticiasHome[13].fecha;
+    document.getElementById("tituloNoticia13").innerHTML=noticiasHome[13].titulo;
+    document.getElementById("autorNoticia13").innerHTML=noticiasHome[13].autor;
+    document.getElementById("imagenNoticia13").src=noticiasHome[13].imagenes[0];
+    document.getElementById("link13").href = noticiasHome[13].link;
+}
+reemplazarNoticia13();
 //
 
 function toggleMenu() {
