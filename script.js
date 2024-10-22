@@ -139,6 +139,16 @@ noticiasHome[13]={
     fecha:"15/10/24",
     link: "https://medium.com/@alumno.ezucchi/alumno-de-15-años-vendía-fotos-creadas-con-ia-de-sus-compañeras-desnudas-a939b6b514aa",
 };  
+noticiasHome[14]={
+    area:"Arrayanes",
+    titulo:"Se acerca la Feria de los Proyectos",
+    copete:"Los alumnos y el colegio se preparan para participar y organizar el evento deportivo anual con fecha en septiembre.",
+    imagenes:["imagenes/noticias/14.png"],
+    autor:"Franco Dell'Orso Mengon",
+    fecha:"22/10/24",
+    link: "https://medium.com/@alumno.fdellorsomengon/se-acerca-la-feria-de-los-proyectos-683e830de449",
+};  
+
 function reemplazarNoticia0(){
     document.getElementById("areaNoticia0").innerHTML=noticiasHome[0].area;
     document.getElementById("fechaNoticia0").innerHTML=noticiasHome[0].fecha;
@@ -277,6 +287,16 @@ function reemplazarNoticia13(){
     document.getElementById("link13").href = noticiasHome[13].link;
 }
 reemplazarNoticia13();
+
+function reemplazarNoticia14(){
+    document.getElementById("areaNoticia14").innerHTML=noticiasHome[14].area;
+    document.getElementById("fechaNoticia14").innerHTML=noticiasHome[14].fecha;
+    document.getElementById("tituloNoticia14").innerHTML=noticiasHome[14].titulo;
+    document.getElementById("autorNoticia14").innerHTML=noticiasHome[14].autor;
+    document.getElementById("imagenNoticia14").src=noticiasHome[14].imagenes[0];
+    document.getElementById("link14").href = noticiasHome[14].link;
+}
+reemplazarNoticia14();
 //
 
 function toggleMenu() {
