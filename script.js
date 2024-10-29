@@ -157,6 +157,15 @@ noticiasHome[15]={
     fecha:"29/10/24",
     link: "https://medium.com/@alumno.fdellorsomengon/se-viene-el-arrafest-6ccaf697dcaa",
 };  
+noticiasHome[16]={
+    area:"Arrayanes",
+    titulo:"La feria de proyectos fue todo un éxito",
+    copete:"Los alumnos y el colegio se preparan para participar y organizar el evento deportivo anual con fecha en septiembre.",
+    imagenes:["imagenes/noticias/16.jpg"],
+    autor:"Eugenio Zucchi",
+    fecha:"29/10/24",
+    link: "https://medium.com/@alumno.ezucchi/la-feria-de-proyectos-fue-todo-un-éxito-466c37208d60",
+};  
 function reemplazarNoticia0(){
     document.getElementById("areaNoticia0").innerHTML=noticiasHome[0].area;
     document.getElementById("fechaNoticia0").innerHTML=noticiasHome[0].fecha;
@@ -315,6 +324,16 @@ function reemplazarNoticia15(){
     document.getElementById("link15").href = noticiasHome[15].link;
 }
 reemplazarNoticia15();
+
+function reemplazarNoticia16(){
+    document.getElementById("areaNoticia16").innerHTML=noticiasHome[16].area;
+    document.getElementById("fechaNoticia16").innerHTML=noticiasHome[16].fecha;
+    document.getElementById("tituloNoticia16").innerHTML=noticiasHome[16].titulo;
+    document.getElementById("autorNoticia16").innerHTML=noticiasHome[16].autor;
+    document.getElementById("imagenNoticia16").src=noticiasHome[16].imagenes[0];
+    document.getElementById("link16").href = noticiasHome[16].link;
+}
+reemplazarNoticia16();
 //
 
 function toggleMenu() {
