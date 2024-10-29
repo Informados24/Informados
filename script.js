@@ -148,7 +148,15 @@ noticiasHome[14]={
     fecha:"22/10/24",
     link: "https://medium.com/@alumno.fdellorsomengon/se-acerca-la-feria-de-los-proyectos-683e830de449",
 };  
-
+noticiasHome[15]={
+    area:"Arrayanes",
+    titulo:"Se acerca el ArraFest",
+    copete:"Los alumnos y el colegio se preparan para participar y organizar el evento deportivo anual con fecha en septiembre.",
+    imagenes:["imagenes/noticias/15.jpg"],
+    autor:"Franco Dell'Orso Mengon",
+    fecha:"29/10/24",
+    link: "https://medium.com/@alumno.fdellorsomengon/se-viene-el-arrafest-6ccaf697dcaa",
+};  
 function reemplazarNoticia0(){
     document.getElementById("areaNoticia0").innerHTML=noticiasHome[0].area;
     document.getElementById("fechaNoticia0").innerHTML=noticiasHome[0].fecha;
@@ -297,6 +305,16 @@ function reemplazarNoticia14(){
     document.getElementById("link14").href = noticiasHome[14].link;
 }
 reemplazarNoticia14();
+
+function reemplazarNoticia15(){
+    document.getElementById("areaNoticia15").innerHTML=noticiasHome[15].area;
+    document.getElementById("fechaNoticia15").innerHTML=noticiasHome[15].fecha;
+    document.getElementById("tituloNoticia15").innerHTML=noticiasHome[15].titulo;
+    document.getElementById("autorNoticia15").innerHTML=noticiasHome[15].autor;
+    document.getElementById("imagenNoticia15").src=noticiasHome[15].imagenes[0];
+    document.getElementById("link15").href = noticiasHome[15].link;
+}
+reemplazarNoticia15();
 //
 
 function toggleMenu() {
